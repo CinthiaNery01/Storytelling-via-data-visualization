@@ -1,8 +1,10 @@
 body {
     margin: 0;
-    background-color:bisque
-    /*url('assets/background.jpg') repeat center center fixed;
-    background-size: cover;*/
+    background-color: white;
+    background-image: url('assets/background-jan31.4.jpg');
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: contain;
 }
 
 h1 {
@@ -26,8 +28,14 @@ h2 {
 h3 {
     text-align: center;
     font-weight: 400;
-    margin-top: 30px !important;
+    margin-top: 40px !important;
 
+}
+
+h5 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px !important;
 }
 
 @keyframes fadeIn {
@@ -40,7 +48,8 @@ h3 {
 }
 
 .paragraph {
-    font-family: "roboto, sans-serif";
+    font-family: "roboto", sans-serif;
     font-weight: 300;
     margin: 15px;
+    animation: fadeIn 2s ease-in-out;
 }
