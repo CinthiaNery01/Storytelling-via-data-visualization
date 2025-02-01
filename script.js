@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const ctx6 = document.getElementById('myChart6')?.getContext('2d');
 
     if (!ctx1 || !ctx2 || !ctx3 || !ctx4|| !ctx5|| !ctx6) {
-        console.error("Erro: Um ou mais elementos <canvas> não foram encontrados.");
+        console.error("Erro: Elements not found");
         return;
     }
 
